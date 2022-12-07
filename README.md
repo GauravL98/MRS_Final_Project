@@ -1,4 +1,4 @@
-MAE 598 Multi Robot Systems
+<h1>MAE 598 Multi Robot Systems</h1>
 Collective Intelligence for Swarm in Target Search Scenario
 Instructor: Prof. Spring Berman
 Team Members: 
