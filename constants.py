@@ -1,0 +1,39 @@
+# Simulation Parameters
+SCREEN_WIDTH = 1600
+SCREEN_HEIGHT = 1000
+
+PIX2M = 0.01  # factor to convert from pixels to meters
+M2PIX = 100.0  # factor to convert from meters to pixels
+
+DRONE_RADIUS = 30
+RESOLUTION = 50 # Of grid
+RADIUS_OBSTACLES = 50
+TIME_MAX_SIMULATION = 120 # Time to stop simulation in case the conditions are not completed
+AVOID_OBSTACLES = RADIUS_OBSTACLES *1.8
+NUM_DRONES = 10 # Number of simultaneous drones
+SIZE_TRACK = 1
+NUM_OBSTACLES = 30
+
+# Sample Time Parameters
+FREQUENCY = 60.0  # simulation frequency
+SAMPLE_TIME = 1.0 / FREQUENCY  # simulation sample time
+
+# Behavior Parameters
+FORWARD_SPEED = 2   # default linear speed when going forward
+ANGULAR_SPEED = 1.5 # default angular speed
+SEEK_FORCE = 0.5    # max seek force
+RADIUS_TARGET = 130 # Radius of the target
+MASS = 10           # Drone Mass, used to calculate force
+HOP_AHEAD = 60      # distance of prevision
+AVOID_DISTANCE = 30 # distance to avoid collision
+
+# Colors
+BLACK = (0,0,0)
+LIGHT_BLUE = (224, 255, 255)
+BLUE = (0,0,255)
+RED = (255,0,0)
+Target_color = (0,255,220)
+SL_color =(255,0,230)
+
+#background image
+BACK_GROUND_IMAGE = "models/texture/background_2.png"
